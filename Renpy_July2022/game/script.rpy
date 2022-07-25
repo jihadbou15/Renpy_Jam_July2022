@@ -28,7 +28,17 @@ label start:
 
     "Jihad is a gay person. Lol."
 
-    call scene_1
+    menu:
+
+        "Choose scene"
+
+        "Scene 1":
+            call scene_1
+        
+        "Scene 2":
+            call scene_2
+
+    "Thank you for playing"
 
     # This ends the game.
 
