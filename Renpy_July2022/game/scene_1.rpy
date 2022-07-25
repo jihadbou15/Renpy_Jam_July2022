@@ -3,10 +3,13 @@ define p = Character("Parker")
 
 label scene_1:
 
+    $ crystal_y = 0.22
+
     scene bg city square
     with fade
 
-    show Crystal shocked at left
+    show crystal shocked at left:
+        yalign crystal_y
 
     c "I came as fast as i could, Is it true? Is he really…?"
 
@@ -20,7 +23,8 @@ label scene_1:
     pause 2.0
 
     scene bg city square
-    show Crystal distressed at left
+    show crystal distressed at left:
+        yalign crystal_y
     with fade
 
     c "{cps=*.1}Boss…. Why….What happened?{/cps}"
@@ -29,7 +33,8 @@ label scene_1:
 
     p "We have already called Kieran to the scene"
 
-    show Crystal angry at left
+    show crystal angry at left:
+        yalign crystal_y
 
     c "Why??"
 
@@ -39,12 +44,14 @@ label scene_1:
     p "Whether we like it or not, Kieran has the most experience with it."
     p "He should have a better view on it than us."
 
-    show Crystal annoyed at left
+    show crystal annoyed at left:
+        yalign crystal_y
 
     c "Fiiiine, just give me a rundown of the evidence you already got."
     p "Sure thing."
 
-    show Crystal listening at left # idk like a thinking pose
+    show crystal thinking at left:
+        yalign crystal_y
 
     p "Preliminary autopsy puts the time of death between 6 PM yesterday and 12 AM today."
     p "Cause of death is currently unknown, but we have ruled out the hook."
@@ -57,7 +64,8 @@ label scene_1:
     p "We did notice that there were no signs of a struggle, which seems to point to the possibility that he was unconscious as he was murdered."
     p "We do not know how yet, but a definitive autopsy should clear that up."
 
-    show Crystal confused at left
+    show crystal confused at left:
+        yalign crystal_y
 
     c "Thanks... What's your name again?"
 
