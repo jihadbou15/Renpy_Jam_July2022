@@ -1,9 +1,8 @@
-
-*.rpyc
 Renpy_July2022/.vscode/
 *.rpyb
-game/*.rpyc
+*.rpyc
 Renpy_July2022/log.txt
 Renpy_July2022/traceback.txt
-Renpy_July2022/log.txt
-Renpy_July2022/game/**/*.rpyc
+Renpy_July2022/errors.txt
+cache/
+saves/
