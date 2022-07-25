@@ -1,6 +1,7 @@
 define b = Character("Boss")
 define k = Character("Keiran")
 define p = Character("Parker")
+define l = Character("Lizzie")
 
 label scene_2:
 
