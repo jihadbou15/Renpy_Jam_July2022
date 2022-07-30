@@ -6,7 +6,7 @@ define w = Character("Older Lady")
 
 label scene_2:
 
-    scene street overpass
+    scene bg overpass
     with fade
 
     show Boss neutral
@@ -16,7 +16,7 @@ label scene_2:
     k "So.. you said it was urgent?"
     b "Just come with me."
 
-    scene overpass murder as om
+    scene bg overpass
     with fade 
 
     k "Wh..."
@@ -28,7 +28,7 @@ label scene_2:
 
     pause 3.0
 
-    scene om
+    scene bg overpass
     with fade
 
     show Boss neutral
@@ -67,7 +67,7 @@ label scene_2:
     k "Ah! Yes..."
     k "Sorry Lizzy, still not used to this"
 
-    l happy "It's okay. It's your first time in the HCS after all."
+    l @ happy "It's okay. It's your first time in the HCS after all."
     l "Anyways, Boss already knows this but the victim is Gant Baddoer."
 
     k "Wait I know that name."
